@@ -1,5 +1,7 @@
 # CrafatarAPI
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.expram/CrafatarAPI/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.expram/CrafatarAPI)
+
 * [Crafatar Api](https://crafatar.com/) For Java
 * This Libary Using [java-json](http://www.java2s.com/Code/Jar/j/Downloadjavajsonjar.htm)
 
