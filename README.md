@@ -14,7 +14,7 @@
                     //If you don't want to change scale, size and etc, use 'null'
                     .getAvatar(512, true, null)
                     //If you need a url - use the getUrl method
-                    .download("D:\\\\image\\\\", "avatar");
+                    .download("D:\\image\\\, "avatar");
         } catch (InvalidUUIDException | InvalidSizeException e) {
             e.printStackTrace();
         }
@@ -27,7 +27,7 @@
         try {
             new CrafatarUser("superplays_")
                     .getBodyRender(10, false, null)
-                    .download("D:\\\\image\\\\", "body");
+                    .download("D:\\image\\", "body");
         } catch (InvalidUUIDException | InvalidScaleException e) {
             e.printStackTrace();
         }
@@ -41,7 +41,7 @@
         try {
             new CrafatarUser("superplays_")
                     .getHeadRender(10, false, null)
-                    .download("D:\\\\image\\\\", "head");
+                    .download("D:\\image\\", "head");
         } catch (InvalidUUIDException | InvalidScaleException e) {
             e.printStackTrace();
         }
@@ -55,7 +55,7 @@
         try {
             new CrafatarUser("superplays_")
                     .getSkin(null)
-                    .download("D:\\\\image\\\\", "avatar");
+                    .download("D:\\image\\", "avatar");
         } catch (InvalidUUIDException e) {
             e.printStackTrace();
         }
@@ -69,7 +69,7 @@
         try {
             new CrafatarUser("jeb_")
                     .getCape(null)
-                    .download("D:\\\\image\\\\", "cape");
+                    .download("D:\\image\\", "cape");
         } catch (InvalidUUIDException e) {
             e.printStackTrace();
         }
