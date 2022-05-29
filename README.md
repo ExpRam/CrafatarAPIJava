@@ -14,7 +14,7 @@
                     //If you don't want to change scale, size and etc, use 'null'
                     .getAvatar(512, true, null)
                     //If you need a url - use the getUrl method
-                    .download("D:\\image\\\, "avatar");
+                    .download("D:\\image\\", "avatar");
         } catch (InvalidUUIDException | InvalidSizeException e) {
             e.printStackTrace();
         }
